@@ -1,0 +1,25 @@
+{
+  "name": "imageshow",
+  "version": "1.0.0",
+  "description": "A simple HTML rotating image page, useful for a kiosk or presenting a gallery in a browser window.",
+  "main": "server.js",
+  "bin": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Matthew Rogers",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "open": "^10.0.3"
+  },
+  "pkg": {
+    "assets": [
+      "server.js",
+      "script.js",
+      "style.css",
+      "index.html"
+    ]
+  }
+}
